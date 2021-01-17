@@ -1,0 +1,115 @@
+.footer {
+    background-color: #222222;
+    
+    &-box {
+        display: flex;
+        width: 100%;
+        padding: 59px 0 54px 0;
+
+        @include media ('<=tablet') {
+            flex-wrap: wrap;
+        }
+    }
+
+    &-title {
+        font-size: 18px;
+        color: #c2c2c2;
+        text-transform: uppercase;
+        letter-spacing: 1.98px;
+        font-weight: 400;
+        margin-bottom: 31px;
+    }
+
+    &-description {
+        color: #929292;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &-user {
+       color: #7b6c63;
+       font-size: 12px;
+       transition: all ease 0.5s;
+
+        &:hover {
+            color: #bd9d8b;
+        }
+    }
+
+    &-info {
+        color: #929292;
+        transition: all ease 0.5s;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.company,
+.posts,
+.twitter-feeds,
+.our-address {
+    width: calc(25% - 10px);
+    padding: 0px 15px;
+
+    @include media ('<=tablet') {
+        width: calc(50% - 10px);
+    }
+
+    @include media ('<=xs-phone') {
+        width: calc(100% - 10px);  
+        margin-bottom: 20px;         
+    }
+}
+
+time {
+    color: #5f5f5f;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.header__logo.footer {
+    color: #7b6c63;
+}
+
+.recent-posts,
+.twit {
+    margin: 15px 0;
+    border-bottom: 1px solid #383838;
+}
+
+.footer-description.address {
+    padding: 0;
+    margin: 0;
+}
+
+.icon-phone:before {
+    content: "\e942";
+    padding-right: 10px;
+}
+
+.icon-envelop:before {
+    content: "\e945";
+    padding-right: 10px;
+}
+
+.icon-location:before {
+    content: "\e947";
+    padding-right: 10px;
+}
+
+.copyright {
+    background-color: #1c1c1c;
+    padding: 30px 0 24px 0;
+    
+    &-text {
+        margin: 0;
+        padding: 0;
+        color: #595959;
+        font-weight: 300;
+        letter-spacing: 1.72px;
+        text-align: center;
+    }
+}

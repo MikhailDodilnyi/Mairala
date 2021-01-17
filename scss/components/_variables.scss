@@ -1,0 +1,43 @@
+// Переменные цветов
+
+$gray: #999;
+$blue: #007bff;
+$dark-blue: #0069d9;
+$green: #28a745;
+$dark-green: #218838;
+$red: #f00;
+$yellow: #ff0;
+
+$black: #000;
+$white: #fff;
+
+
+$base-font-josefin-sansserif: 'Josefin Sans', 'Arial', sans-serif;
+$base-font-oleo-script: 'Oleo Script', 'Arial', cursive;
+$base-font-open-sans: 'Open Sans', 'Arial', sans-serif;
+$base-font-raleway: 'Raleway', 'Arial', sans-serif;
+
+// Основной размер и цвет текста, семейство шрифта и цвет фона
+$base-text-color: $black;
+$base-background-color: $white;
+$font-size-base: 16px;
+$line-height-base: 1.2;
+$base-font-family: $base-font-raleway;
+
+$base-min-width: 320px;
+
+// Цвет глобальной ссылки
+$base-link-color: $blue;
+
+// Формы
+$form-element-border-color: $gray;
+$form-element-focus-border-color: $black;
+$placeholder-color: $gray ;
+
+// Переменные font-size для заголовков
+$h1-font-size: 40px;
+$h2-font-size: 27px;
+$h3-font-size: 24px;
+$h4-font-size: 21px;
+$h5-font-size: 17px;
+$h6-font-size: 15px;
